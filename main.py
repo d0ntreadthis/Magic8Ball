@@ -56,8 +56,8 @@ class Magic8Ball(object):
 
 	def give_response(self):
 		choice = randint(1, len(self.response)+1)
-		print self.response[choice]
-		print
+		print self.response[choice] + '\n'
+		#print
 
 
 	def ball_behaviour(self):
